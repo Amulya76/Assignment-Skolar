@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    <style>
+       
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #1a1a2e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #16213e;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: #e94560;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ffffff;
+        }
+
+        /* Main Content Styles */
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        section {
+            flex: 3;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #eef1f6;
+            border-left: 5px solid #e94560;
+            border-radius: 5px;
+        }
+
+        article h3 {
+            margin-top: 0;
+        }
+
+        /* Sidebar Styles */
+        aside {
+            flex: 1;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        aside h3 {
+            margin-top: 0;
+        }
+
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        aside li {
+            margin-bottom: 10px;
+        }
+
+        aside li a {
+            color: #333;
+        }
+
+        aside li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #1a1a2e;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer .social-icons {
+            margin-top: 10px;
+        }
+
+        footer .social-icons a {
+            margin: 0 10px;
+            color: #e94560;
+            font-size: 1.5rem;
+            transition: color 0.3s;
+        }
+
+        footer .social-icons a:hover {
+            color: #ffffff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+
+            section {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Tech Insights Blog</h1>
+        <p>Your source for the latest in technology and innovation.</p>
+    </header>
+
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+   
+    <main>
+     
+        <section>
+            <h2>Latest Articles</h2>
+
+           
+            <article>
+                <h3>The Rise of Quantum Computing</h3>
+                <p>Quantum computing is no longer just a concept; it's becoming a reality. Learn how quantum computers are set to revolutionize the tech industry.</p>
+                <a href="#">Read More...</a>
+            </article>
+
+           
+            <article>
+                <h3>Artificial Intelligence in Healthcare</h3>
+                <p>AI is transforming healthcare, from diagnostics to personalized treatment plans. Discover the latest AI innovations that are changing patient care.</p>
+                <a href="#">Read More...</a>
+            </article>
+
+    
+            <article>
+                <h3>5G Technology: What You Need to Know</h3>
+                <p>The 5G revolution is here, promising faster speeds and more reliable connections. Understand the impact of 5G technology on our daily lives.</p>
+                <a href="#">Read More...</a>
+            </article>
+        </section>
+
+       
+        <aside>
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">How Blockchain is Disrupting Finance</a></li>
+                <li><a href="#">Virtual Reality: The Future of Gaming?</a></li>
+                <li><a href="#">Cybersecurity Trends in 2024</a></li>
+                <li><a href="#">Top 10 Programming Languages to Learn</a></li>
+            </ul>
+        </aside>
+    </main>
+
+  
+    <footer>
+        <p>&copy; 2024 Tech Insights Blog. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+        </div>
+    </footer>
+
+ 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
