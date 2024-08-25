@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Comments and Special Characters Tutorial</title>
+    <style>
+       
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #283593;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Main Content Styles */
+        main {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #283593;
+            margin-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .highlight {
+            background-color: #ffeb3b;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .special-characters {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .special-characters ul {
+            padding: 0;
+            list-style-type: none;
+        }
+
+        .special-characters li {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #283593;
+        }
+
+        .special-characters code {
+            background-color: #e0e0e0;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-size: 1.1rem;
+        }
+
+        pre {
+            background-color: #f3f4f6;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #1a237e;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        footer .footer-links a {
+            color: #ffeb3b;
+            margin: 0 10px;
+            font-size: 1.2rem;
+        }
+
+        footer .footer-links a:hover {
+            color: #ffffff;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            main {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>HTML Tutorial Hub</h1>
+        <p>Master HTML5: From Basics to Advanced Topics</p>
+    </header>
+
+    <main>
+ 
+        <section>
+            <h2>Understanding HTML Comments</h2>
+   
+            <p>HTML comments are not displayed in the browser but can help document your code, making it easier to understand and maintain. Comments are enclosed within <span class="highlight">&lt;!--</span> and <span class="highlight">--&gt;</span> tags.</p>
+            <pre><code>&lt;!-- This is an HTML comment --&gt;</code></pre>
+            <p>Comments can be used to:</p>
+            <ul>
+                <li>Explain sections of code.</li>
+                <li>Hide code temporarily for debugging purposes.</li>
+                <li>Provide additional information for developers.</li>
+            </ul>
+        </section>
+
+        <section class="special-characters">
+            <h2>Using Special Characters in HTML</h2>
+            <p>In HTML, special characters are represented using HTML entities to ensure they display correctly. Here are some commonly used special characters and their corresponding HTML entities:</p>
+            <ul>
+                
+                <li><strong>Ampersand (&amp;):</strong> Use <code>&amp;amp;</code> to render as: &amp;</li>
+                <li><strong>Less than (&lt;):</strong> Use <code>&amp;lt;</code> to render as: &lt;</li>
+                <li><strong>Greater than (&gt;):</strong> Use <code>&amp;gt;</code> to render as: &gt;</li>
+                <li><strong>Copyright (&copy;):</strong> Use <code>&amp;copy;</code> to render as: &copy;</li>
+                <li><strong>Registered Trademark (&reg;):</strong> Use <code>&amp;reg;</code> to render as: &reg;</li>
+                <li><strong>Trademark (&trade;):</strong> Use <code>&amp;trade;</code> to render as: &trade;</li>
+                <li><strong>Non-breaking space (&nbsp;):</strong> Use <code>&amp;nbsp;</code> to render as a space.</li>
+                <li><strong>Euro (&euro;):</strong> Use <code>&amp;euro;</code> to render as: &euro;</li>
+                <li><strong>Yen (&yen;):</strong> Use <code>&amp;yen;</code> to render as: &yen;</li>
+                <li><strong>Pound (&pound;):</strong> Use <code>&amp;pound;</code> to render as: &pound;</li>
+            </ul>
+         
+            <p>If you want to display special characters such as mathematical symbols or punctuation marks that have special meanings in HTML (like <code>&lt;</code> and <code>&gt;</code>), you must use their HTML entities to avoid rendering issues.</p>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p>&copy; 2024 HTML Tutorial Hub. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Home</a> | 
+            <a href="#">About</a> | 
+            <a href="#">Contact</a>
+        </div>
+    </footer>
+</body>
+
+</html>
