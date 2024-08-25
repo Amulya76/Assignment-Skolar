@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justin Bieber Fan Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #f0f8ff, #e6e6fa);
+        }
+        header {
+            background: #4b9cd3;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-bottom: 4px solid #357abd;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4b9cd3;
+            border-bottom: 2px solid #4b9cd3;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        ul, ol {
+            margin: 0;
+            padding: 0;
+            list-style-position: inside;
+        }
+        ul ul {
+            padding-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        th {
+            background: #4b9cd3;
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        form {
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input[type="text"], 
+        form input[type="email"], 
+        form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form input[type="submit"] {
+            background: #4b9cd3;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        form input[type="submit"]:hover {
+            background: #357abd;
+        }
+        aside {
+            margin-top: 20px;
+            background: #f1f1f1;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #4b9cd3;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            border-top: 4px solid #357abd;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        .album-review {
+            background: #f0f8ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .video-section {
+            margin-top: 20px;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .video-section iframe {
+            width: 100%;
+            height: 315px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <article>
+        <h1>Justin Bieber</h1>
+        <p>Justin Bieber is a Canadian singer and songwriter. He gained fame with his debut single "Baby" and has since become a global music sensation. His style spans various genres including pop, R&B, and electronic dance music.</p>
+        <ul>
+            <li>Hobbies:
+                <ul>
+                    <li>Playing Guitar</li>
+                    <li>Traveling</li>
+                    <li>Playing Basketball</li>
+                </ul>
+            </li>
+            <li><a href="https://www.justinbiebermusic.com" target="_blank">Official Justin Bieber Website</a></li>
+        </ul>
+
+        <h2>Weekly Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Morning</th>
+                    <th>Afternoon</th>
+                    <th>Evening</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Recording</td>
+                    <td>Meetings</td>
+                    <td>Concert Rehearsal</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>Studio Time</td>
+                    <td>Interviews</td>
+                    <td>Rest</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Songwriting</td>
+                    <td>Video Shoot</td>
+                    <td>Fan Interaction</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Latest Album</h2>
+        <p>Justin Bieber's latest album is "Justice," which features a mix of pop and R&B tracks. Some notable songs include "Peaches" and "Ghost."</p>
+        <img src="/images/justin.jpeg" alt="Justice Album Cover">
+        <p>Source of Image: <a href="https://example.com/justice-album-cover" target="_blank">Album Cover Source</a></p>
+
+        <div class="album-review">
+            <h2>Album Review</h2>
+            <p>"Justice" showcases Justin Bieber's evolution as an artist. The album blends introspective lyrics with upbeat melodies, reflecting his personal growth and experiences. Tracks like "Peaches" and "Ghost" have received widespread acclaim for their catchy hooks and emotional depth.</p>
+        </div>
+        
+        <h2>Featured Music Video</h2>
+<div class="video-section">
+    <iframe src="https://www.youtube.com/embed/2l1cK22EJBs?si=77-NXsr_dJWTxJkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+
+        <h2>Login</h2>
+        <form action="/login" method="post">
+            <label for="login-name">Name:</label>
+            <input type="text" id="login-name" name="name" required><br>
+            <label for="login-email">Email:</label>
+            <input type="email" id="login-email" name="email" required><br>
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="password" required><br>
+            <input type="submit" value="Login">
+        </form>
+
+        <h2>Register</h2>
+        <form action="/register" method="post">
+            <label for="register-name">Name:</label>
+            <input type="text" id="register-name" name="name" required><br>
+            <label for="register-email">Email:</label>
+            <input type="email" id="register-email" name="email" required><br>
+            <label for="register-password">Password:</label>
+            <label for="register-password">Password:</label>
+            <input type="password" id="register-password" name="password" required><br>
+            <label for="register-confirm-password">Confirm Password:</label>
+            <input type="password" id="register-confirm-password" name="confirm-password" required><br>
+            <label for="agree-terms">
+                <input type="checkbox" id="agree-terms" name="terms" required>
+                Agree to Terms and Conditions
+            </label><br>
+            <input type="submit" value="Register">
+        </form>
+    </article>
+
+    <aside>
+        <h2>Related Links</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/user/justinbieber" target="_blank">Justin Bieber's YouTube Channel</a></li>
+            <li><a href="https://www.instagram.com/justinbieber/" target="_blank">Justin Bieber's Instagram</a></li>
+            <li><a href="https://twitter.com/justinbieber" target="_blank">Justin Bieber's Twitter</a></li>
+        </ul>
+    </aside>
+
+</main>
+
+<footer>
+    <p>Contact us at: <a href="mailto:contact@justinbieberfanpage.com">contact@justinbieberfanpage.com</a></p>
+</footer>
+
+</body>
+</html>
+
