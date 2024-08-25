@@ -109,19 +109,19 @@
     <div class="form-container">
         <h2>User Registration</h2>
         <form action="#" method="post">
-            <!-- Name Input -->
+            
             <div class="form-group">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
             </div>
 
-            <!-- Email Input -->
+           
             <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
             </div>
 
-            <!-- Gender Radio Buttons -->
+            
             <div class="form-group">
                 <label>Gender:</label>
                 <div class="radio-group">
@@ -131,7 +131,6 @@
                 </div>
             </div>
 
-            <!-- Country Dropdown -->
             <div class="form-group">
                 <label for="country">Country:</label>
                 <select id="country" name="country" required>
@@ -144,13 +143,11 @@
                 </select>
             </div>
 
-            <!-- File Upload -->
             <div class="form-group">
                 <label for="profile-pic">Upload Resume:</label>
                 <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
             </div>
 
-            <!-- Button Group -->
             <div class="button-group">
                 <button type="submit" class="submit-btn">Submit</button>
                 <button type="reset" class="reset-btn">Reset</button>
