@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demon Slayer Image and Links</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+        }
+
+        .image-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #e0c5a3, #f4a5a0);
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            border: 1px solid #d1a989;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 5px solid #f9eae4;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .caption {
+            font-size: 1.2em;
+            color: #444;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        a {
+            display: block;
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #c0392b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #e74c3c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="/images/demon.jpg" alt="Demon Slayer Image">
+        <div class="caption">Epic Demon Slayer artwork for fans!</div>
+        <a href="https://www.google.com/search?q=demon+slayer+wallpaper" target="_blank">Source of the Image</a>
+    </div>
+
+</body>
+</html>
