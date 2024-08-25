@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Schedule</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f7f9;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background: linear-gradient(135deg, #6c5b7b, #c06c84);
+            color: white;
+            font-weight: bold;
+        }
+
+        td {
+            background: #ffffff;
+            border: 1px solid #ddd;
+        }
+
+        caption {
+            font-size: 1.6em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        /* Hover effect for rows */
+        tr:hover td {
+            background-color: #e2e2e2;
+        }
+    </style>
+</head>
+<body>
+  
+    <h1 style="text-align: center;">Weekly Schedule</h1>
+
+    <table>
+        <caption>My Weekly Schedule</caption>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Morning</td>
+                <td>Exercise</td>
+                <td>Meeting</td>
+                <td>Study</td>
+                <td>Work</td>
+                <td>Relax</td>
+                <td>Shopping</td>
+                <td>Family Time</td>
+            </tr>
+            <tr>
+                <td>Afternoon</td>
+                <td>Work</td>
+                <td>Project</td>
+                <td>Lunch</td>
+                <td>Client Call</td>
+                <td>Work</td>
+                <td>Outdoor Activity</td>
+                <td>Read a Book</td>
+            </tr>
+            <tr>
+                <td>Evening</td>
+                <td>Dinner</td>
+                <td>Exercise</td>
+                <td>Relax</td>
+                <td>Cook</td>
+                <td>Watch TV</td>
+                <td>Dinner with Friends</td>
+                <td>Prepare for Next Week</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
