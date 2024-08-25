@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 5 Favorite Anime</title>
+    <style>
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+            color: #333;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        ol {
+            margin-left: 0;
+            padding-left: 0;
+            list-style-position: inside;
+        }
+
+        ol li {
+            margin: 15px 0;
+            font-size: 1.2em;
+            color: #34495e;
+        }
+
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+            list-style-type: circle;
+        }
+
+        ul li {
+            font-size: 1em;
+            color: #555;
+        }
+
+        li:hover {
+            color: #2980b9;
+            transition: color 0.3s ease;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>My Top 5 Favorite Anime</h1>
+
+    <ol>
+        <li>Attack on Titan
+            <ul>
+                <li>Year Released: 2013</li>
+                <li>Main Characters: Eren Yeager, Mikasa Ackerman, Armin Arlert</li>
+                <li>Description: In a world where humanity lives within enormous walled cities to protect themselves from gigantic man-eating Titans, a young man vows to destroy them after they bring death and destruction to his town.</li>
+            </ul>
+        </li>
+        <li>My Hero Academia
+            <ul>
+                <li>Year Released: 2016</li>
+                <li>Main Characters: Izuku Midoriya, Katsuki Bakugo, All Might</li>
+                <li>Description: In a world where nearly everyone has superpowers, a young boy born without them is determined to become a hero by enrolling in a prestigious hero academy.</li>
+            </ul>
+        </li>
+        <li>Demon Slayer
+            <ul>
+                <li>Year Released: 2019</li>
+                <li>Main Characters: Tanjiro Kamado, Nezuko Kamado, Zenitsu Agatsuma</li>
+                <li>Description: A young boy embarks on a journey to become a demon slayer to avenge his family and cure his sister, who has been turned into a demon.</li>
+            </ul>
+        </li>
+        <li>Death Note
+            <ul>
+                <li>Year Released: 2006</li>
+                <li>Main Characters: Light Yagami, L, Ryuk</li>
+                <li>Description: A high school student discovers a supernatural notebook that allows him to kill anyone whose name he writes in it and decides to use it to rid the world of criminals.</li>
+            </ul>
+        </li>
+        <li>Fullmetal Alchemist: Brotherhood
+            <ul>
+                <li>Year Released: 2009</li>
+                <li>Main Characters: Edward Elric, Alphonse Elric, Roy Mustang</li>
+                <li>Description: Two brothers search for a Philosopher's Stone after an alchemy experiment goes wrong and leaves them in damaged physical forms.</li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+</html>
